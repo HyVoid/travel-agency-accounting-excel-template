@@ -19,7 +19,7 @@ This **travel agency financial management toolkit** unifies **master booking reg
 > Use the interactive browser calculator for instant single-session tour costing and cash flow simulation. For permanent company bookkeeping, monthly bank reconciliation, and multi-booking financial control, download the automated Microsoft Excel workbook.
 >
 > - 🌐 **[Launch the Free Web-Based Tour Operator Profit & Cash Flow Sandbox Calculator (Interactive Browser App)](#)** — *Instant online testing environment for simulating per-booking gross margins, split B2B deposits, and AR/AP aging without installing files.*
-> - 📥 **[Download the Reusable B2B Travel Agency Accounting & Financial Settlement Excel Template (.xlsx)](#)** — *Complete offline spreadsheet workbook powered by native Excel Dynamic Array formulas (`XLOOKUP`, `FILTER`, `LET`) for permanent monthly travel accounting.*
+> - 📥 **[Download the Reusable B2B Travel Agency Accounting & Financial Settlement Excel Template (.xlsx)](https://theseusworkshop.com/l/qihgnj)** — *Complete offline spreadsheet workbook powered by native Excel Dynamic Array formulas (`XLOOKUP`, `FILTER`, `LET`) for permanent monthly travel accounting.*
 
 ---
 
@@ -56,7 +56,7 @@ Open the **Automated Booking Calculation Engine** to inspect per-tour gross prof
 
 ### Step 4: Transition from Single-Session Web Testing to Reusable Monthly Excel Bookkeeping
 While the browser sandbox is ideal for instant single-session simulation, ongoing travel agency operations require persistent data storage. Download the **reusable offline Microsoft Excel workbook (`.xlsx`)** to maintain permanent multi-month transaction registers, perform weekly bank reconciliations, update the `Analysis Date` for live **overdue invoice tracking**, and roll over the `Reporting Year` across fiscal cycles.
-- 👉 *Get the Permanent Toolkit:* **[Download the Reusable B2B Travel Agency Accounting Excel Workbook (.xlsx) for Recurring Monthly Operations](#)**
+- 👉 *Get the Permanent Toolkit:* **[Download the Reusable B2B Travel Agency Accounting Excel Workbook (.xlsx) for Recurring Monthly Operations](https://theseusworkshop.com/l/qihgnj)**
 
 ---
 
