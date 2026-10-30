@@ -1,215 +1,237 @@
-# B2B Travel Agency Accounting Excel Template & Tour Operator Profitability Tracker — RT Vacations Balkan
+# B2B Travel Agency Accounting Excel Template (.xlsx) & Tour Operator Profit Calculator — DMC Financial Settlement Tracker | RT Vacations Balkan
+<img width="1920" height="790" alt="image" src="https://github.com/user-attachments/assets/cb659a58-4e78-464d-bcee-5b144d34575d" />
 
-**RT Vacations Balkan** is a **free web-based tour operator profit calculator** and **downloadable B2B travel agency accounting Excel template (`.xlsx`)** designed for **Destination Management Companies (DMCs)**, **inbound tour operators**, and **wholesale travel agencies**. It enables travel businesses to track **per-booking gross margin**, **customer accounts receivable (AR) aging**, **local supplier accounts payable (AP) liabilities**, **multi-currency FX reconciliation (`EUR`, `BAM`, `USD`)**, and **net operating cash flow** inside one connected **travel financial settlement spreadsheet**—without installing heavy travel ERP software or paying recurring SaaS subscriptions.
 
-A B2B travel agency or DMC can maintain a full group booking pipeline and high invoiced sales volume while still failing to answer three critical financial control questions:
+**B2B Travel Agency Accounting Excel Template (`.xlsx`)** and **Free Web-Based Tour Operator Profit Calculator** purpose-built for **Destination Management Companies (DMCs)**, **inbound tour operators**, and **wholesale travel agencies**. **RT Vacations Balkan** automates **per-booking tour job costing**, **PAX gross margin analysis**, **customer accounts receivable (AR) aging**, **local supplier accounts payable (AP) reconciliation**, **multi-currency FX settlement (`EUR`, `BAM`, `USD`)**, and **monthly travel agency P&L and operating cash flow reporting** inside one connected **travel financial settlement spreadsheet**—without installing heavy travel ERP software or paying recurring SaaS subscriptions.
 
-- **Tour Costing & Margin Accuracy:** Which inbound group tours or FIT bookings actually generate net profit after deducting **hotel rooming lists, charter transport, licensed tour guides, restaurant meals, entrance tickets, and land arrangement costs**?
-- **AR/AP Settlement Exposure:** How much cash has actually been collected from **overseas B2B travel partners (outbound wholesalers/OTAs)**, and how much remains unpaid to **local ground suppliers**?
-- **Cash Flow vs. Paper Profit:** Is the travel agency generating real **operating cash flow**, or merely accumulating uncollected invoice revenue while suffocating from upfront supplier deposits?
+Even with a full group booking pipeline and record invoiced turnover, a **B2B travel agency** or **inbound DMC** can easily lose financial control if it cannot answer three core **travel management accounting** questions:
 
-This **travel agency financial management toolkit** connects **booking registers, B2B sales invoices, supplier cost bills, split payment ledgers, and office overhead expenses** into an automated **Tour P&L and cash flow reporting workflow**.
+- **Tour Costing & Per-PAX Margin Accuracy:** Which **inbound group tours**, **tailor-made FIT packages**, or **MICE itineraries** actually generate net profit after deducting **hotel rooming lists, charter coach hire, licensed multilingual tour guides, restaurant group meals, national park entrance tickets, and ground handling costs**?
+- **B2B AR/AP Settlement & Credit Exposure:** How much cash has genuinely been collected from **overseas B2B travel wholesalers and OTA partners**, and how much remains unpaid in **local hospitality supplier liabilities** ahead of hotel release dates?
+- **Realized Cash Flow vs. Accrual Paper Profit:** Is the travel business generating positive **net operating cash flow**, or merely accumulating uncollected B2B invoice revenue while draining working capital on **upfront vendor prepayments**?
 
-*No account signup. No software installation. Instant browser-based sandbox access, paired with a permanent, offline Excel workbook for recurring monthly accounting operations.*
+This **travel agency financial management toolkit** unifies **master booking registers, B2B sales invoices, land arrangement supplier bills, split payment ledgers, and fixed office overhead (SG&A)** into an automated **Tour P&L and bank liquidity reporting workflow**.
 
-> **Start Optimizing Your Tour Margins Today:**
+*Zero account registration. Zero software installation. Instant browser-based financial sandbox testing, paired with a permanent, reusable offline Microsoft Excel workbook for recurring monthly travel bookkeeping.*
+
+> **Start Auditing Your Tour Margins & Agency Cash Flow Today:**
 >
-> Use the interactive browser app for instant booking margin simulation. For permanent company bookkeeping, monthly bank reconciliation, and custom financial reporting, download the automated Microsoft Excel workbook.
+> Use the interactive browser calculator for instant single-session tour costing and cash flow simulation. For permanent company bookkeeping, monthly bank reconciliation, and multi-booking financial control, download the automated Microsoft Excel workbook.
 >
-> - 🌐 **[Launch the Free Web-Based Travel Agency Profit & Cash Flow Calculator](#)** — *Interactive browser sandbox for instant single-session tour costing and AR/AP testing.*
-> - 📥 **[Download the B2B Travel Agency Financial Settlement Excel Template (.xlsx)](#)** — *Full offline spreadsheet workbook with automated dynamic array formulas and multi-currency ledgers.*
+> - 🌐 **[Launch the Free Web-Based Tour Operator Profit & Cash Flow Sandbox Calculator (Interactive Browser App)](#)** — *Instant online testing environment for simulating per-booking gross margins, split B2B deposits, and AR/AP aging without installing files.*
+> - 📥 **[Download the Reusable B2B Travel Agency Accounting & Financial Settlement Excel Template (.xlsx)](#)** — *Complete offline spreadsheet workbook powered by native Excel Dynamic Array formulas (`XLOOKUP`, `FILTER`, `LET`) for permanent monthly travel accounting.*
 
 ---
 
-## Core Travel Agency Financial Tracking Matrix: Pain Points to Automated Solutions
+## Core Travel Agency Accounting & Financial Tracking Matrix: Pain Points to Automated Excel Solutions
 
-Instead of managing disconnected **tour costing sheets** and manual **bank reconciliation logs**, this framework maps high-frequency travel accounting pain points directly to automated spreadsheet controls:
+Instead of juggling disconnected **tour costing spreadsheets**, manual **hotel rooming payment logs**, and reactive **bank balance checks**, this framework maps high-frequency **travel agency financial pain points** directly to automated spreadsheet controls:
 
-| High-Frequency Travel Finance Pain Point | Core Search & Operational Module | How This Travel Accounting Template Solves It |
+| High-Frequency Travel Finance Pain Point | Target Accounting Module & Search Category | How This Travel Agency Excel Template Automates Control |
 | :--- | :--- | :--- |
-| **Unclear Per-Tour & Per-Pax Profit Margins** | **Booking-Level Job Costing & Tour P&L Tracker** | Automatically deducts direct land arrangement costs (hotels, coaches, guides, meals, entrance fees) from B2B sales invoices to calculate real-time **Booking Gross Profit** and **Revenue per Passenger (PAX)**. |
-| **Lost Track of Partial Customer Deposits & Overdue Balances** | **B2B Customer Accounts Receivable (AR) Aging & Collection Tracker** | Logs initial tour deposits, split installment receipts, and final balance payments against original Invoice IDs, flagging **overdue B2B receivables** and upcoming collection deadlines. |
-| **Missed Hotel Cut-Off Dates & Unpaid Land Suppliers** | **DMC Supplier Accounts Payable (AP) & Liability Register** | Links ground supplier bills directly to `Booking ID`, tracking partial vendor prepayments, remaining **supplier payment obligations**, and vendor settlement due dates. |
-| **Profitable Tours Causing Sudden Cash Crunches** | **Monthly Travel Agency Cash Flow Statement & Liquidity Reconciler** | Separates accrual accounting profit from actual bank movements by deducting **paid supplier bills** and **paid office overhead** from actual **cash collected from clients**. |
-| **Fixed Overhead Eating Up Group Tour Margins** | **Net Operating Profit & Agency Overhead Allocation Dashboard** | Deducts fixed monthly agency expenses (office rent, staff salaries, B2B trade show marketing, international wire transfer fees) from gross tour profit to reveal true **Net Operating Income**. |
-| **Blind Reliance on High-Revenue, Low-Margin B2B Partners** | **Multi-Dimensional DMC Performance Analytics (By Destination, Client & Sales Rep)** | Ranks **travel destinations**, **B2B wholesale buyers**, and **inbound sales agents** by net margin contribution and **bad-debt collection risk**, rather than raw top-line revenue. |
+| **Unclear Per-Tour & Per-PAX Profit Margins** | **Booking-Level Job Costing & Tour P&L Calculator** | Automatically deducts direct land arrangement bills (hotels, charter buses, guides, meals, entrance fees) from B2B sales invoices to compute real-time **Booking Gross Profit**, **Gross Margin (%)**, and **Net Profit per Passenger (`PAX`)**. |
+| **Lost Track of Partial Client Deposits & Overdue Balances** | **B2B Customer Accounts Receivable (AR) Aging & Collection Tracker** | Logs initial 30% tour deposits, split wire installments, and final balance receipts against parent `Invoice ID` records, flagging **overdue B2B receivables** and upcoming credit collection deadlines. |
+| **Missed Hotel Cut-Off Dates & Unpaid Land Suppliers** | **DMC Supplier Accounts Payable (AP) & Vendor Liability Register** | Links ground supplier bills directly to `Booking ID`, tracking partial hotel prepayments, remaining **local vendor payment obligations**, and upcoming supplier settlement due dates. |
+| **Profitable Group Tours Causing Sudden Cash Crunches** | **Monthly Travel Agency Cash Flow Statement & Liquidity Reconciler** | Separates accrual accounting profit from actual bank movements by deducting **paid supplier bills** and **paid office overhead** strictly from **actual cash collected from B2B clients**. |
+| **Fixed Agency Overhead Eating Up Group Tour Margins** | **Net Operating Profit (EBITDA) & SG&A Overhead Allocation Dashboard** | Deducts fixed monthly agency operating costs (office rent, staff payroll, B2B travel trade show booths, bank wire fees) from gross tour profit to reveal true **Net Operating Income**. |
+| **Blind Reliance on High-Volume, Low-Margin B2B Buyers** | **Multi-Dimensional DMC Profitability Analytics (By Destination, Buyer & Sales Rep)** | Ranks **inbound travel destinations**, **overseas B2B wholesale buyers**, and **tour sales managers** by net margin contribution and **bad-debt collection risk**, rather than raw invoiced turnover. |
 
 ---
 
-## Step-by-Step Tutorial: How to Set Up Your Travel Agency Financial Workflow
+## Step-by-Step Tutorial: How to Set Up Your B2B Travel Agency Accounting & Tour Costing Workflow
 
-This **B2B tour operator accounting workflow** follows a simple principle: configure your agency rules once, log booking transactions as they occur, and let the **automated Excel dynamic array engine** generate your P&L and aging reports.
+This **B2B tour operator accounting workflow** is engineered for rapid deployment: configure your agency financial parameters once, log booking and settlement events chronologically, and let the **automated Excel dynamic array engine** generate real-time **Tour P&L statements** and **AR/AP aging schedules**.
 
-### Step 1: Configure Multi-Currency & Agency Margin Parameters
-Open the global settings tab to define your **base reporting currency** (`EUR`, `BAM`, or `USD`), reference **foreign exchange (FX) rates**, **target tour gross margin (%)**, **AR overdue warning threshold (days)**, and monthly **agency revenue & profit budgets**. Populate your master dropdown lists for **B2B wholesale clients, local hospitality suppliers, tour destinations, package types, and sales reps**.
-👉 *Action:* **[Test Parameter Setup in the Free Web Sandbox](#)**
+### Step 1: Configure Multi-Currency FX Rates & Agency Margin Parameters
+Open the global configuration module to define your **base reporting currency** (`EUR`, `BAM`, or `USD`), reference **foreign exchange (`FX`) conversion rates**, **target tour gross margin (%)**, **AR overdue warning threshold (days)**, and monthly **agency revenue and profit budgets**. Populate master validation lists for **overseas B2B clients, local ground suppliers, travel destinations, tour package types, and sales reps**.
+- 👉 *Try It Live:* **[Configure Sample Currency & Margin Rules in the Free Web-Based Tour Calculator Sandbox](#)**
 
-### Step 2: Log Inbound Bookings, B2B Invoices & Land Supplier Bills
-Assign a unique `Booking ID` to each confirmed tour group or FIT file, recording the **B2B buyer, destination routing, travel start/end dates, PAX count, and assigned sales manager**. Log issued **customer sales invoices** and incoming **hotel/transport supplier bills** against that exact `Booking ID`. When recording a **30% client deposit** or a **partial hotel prepayment**, add a line item in the **Payment Settlement Register** rather than overwriting the original invoice value.
+### Step 2: Log Confirmed Inbound Bookings, B2B Sales Invoices & Land Supplier Bills
+Assign a unique `Booking ID` to each confirmed group tour or FIT file, recording the **B2B wholesale buyer, destination routing, travel start/end dates, paying passenger count (`PAX`), and assigned sales manager**. Enter issued **customer B2B invoices** and incoming **hotel, transport, and guide supplier bills** mapped to that exact `Booking ID`. When recording a **partial client deposit** or **hotel prepayment installment**, log a new row in the **Payment Settlement Register** rather than overwriting the original invoice figure.
+- 👉 *Try It Live:* **[Simulate Booking Costing & Split Deposit Entries in the Interactive Browser App](#)**
 
-### Step 3: Audit Tour Gross Margins & AR/AP Settlement Aging
-Navigate to the **Automated Booking Calculation Engine** to inspect per-file gross profit, margin variance warnings, net profit per PAX, unpaid client receivables, and unsettled vendor bills. Switch to the **Executive Travel Finance Dashboard** to visualize monthly cash burn, seasonal destination profitability, and B2B client payment reliability.
+### Step 3: Audit Tour Gross Margins, AR/AP Aging & Monthly Cash Flow
+Open the **Automated Booking Calculation Engine** to inspect per-tour gross profit, target margin variance alerts, profit per PAX, uncollected buyer balances, and unpaid vendor liabilities. Switch to the **Executive Travel Finance Dashboard** to monitor monthly net cash burn, seasonal destination profitability, and B2B buyer payment reliability.
+- 👉 *Try It Live:* **[Preview the Live DMC Executive P&L and AR/AP Aging Dashboard Online](#)**
 
-### Step 4: Transition from Browser Testing to Monthly Offline Bookkeeping
-Once you have validated how the calculation engine handles your sample tour files in the web preview, transition your live agency data into the **reusable offline Excel workbook**. Update the `Analysis Date` weekly to trigger automated **overdue invoice alerts**, and roll over the `Reporting Year` as your agency scales.
-👉 *Action:* **[Download the Reusable B2B Travel Agency Accounting Excel Workbook (.xlsx) for Permanent Monthly Operations](#)**
+### Step 4: Transition from Single-Session Web Testing to Reusable Monthly Excel Bookkeeping
+While the browser sandbox is ideal for instant single-session simulation, ongoing travel agency operations require persistent data storage. Download the **reusable offline Microsoft Excel workbook (`.xlsx`)** to maintain permanent multi-month transaction registers, perform weekly bank reconciliations, update the `Analysis Date` for live **overdue invoice tracking**, and roll over the `Reporting Year` across fiscal cycles.
+- 👉 *Get the Permanent Toolkit:* **[Download the Reusable B2B Travel Agency Accounting Excel Workbook (.xlsx) for Recurring Monthly Operations](#)**
 
 ---
 
-## The Business Logic & Methodology: Understanding Travel Agency Cash Flow & Profit Blind Spots
+## The Business Logic & Methodology: Solving Travel Agency Cash Flow Traps & Profit Blind Spots
 
-*Written for travel agency founders, tour planners, and operations managers without a formal accounting background.*
+*Written in plain, jargon-free language for travel agency founders, tour planners, and DMC operations managers without a formal accounting background.*
 
-Many hard-working travel agency owners fall into a dangerous financial trap: **their booking calendar is completely full, their sales team is celebrating record turnover, yet the company bank account is constantly empty.** 
+Across the global tourism industry, thousands of hard-working travel agency owners fall into the exact same commercial trap: **their departure calendar is 100% booked, their sales team is celebrating record booking turnover, yet the company bank account is constantly empty.**
 
-If you have ever wondered *"Where did all the money go?"* after completing a busy high-season month, you are experiencing the gap between **Sales Revenue**, **Real Profit**, and **Actual Cash**. This toolkit was engineered to eliminate six hidden commercial blind spots using plain, practical business logic:
+If you have ever finished a busy high-season month and asked yourself, *"We sold €200,000 in tours—where did all the cash go?"*, you are experiencing the structural gap between **Invoiced Sales Revenue**, **True Tour Profit**, and **Actual Bank Cash Flow**.
 
-### 1. The "Top-Line Illusion" (Why High Sales Doesn't Mean You Made Money)
-* **The Blind Spot:** Selling a 20-person Balkan group tour to an overseas partner for **€12,000** feels like a major win. Beginners often treat that €12,000 as money earned.
-* **The Reality:** Once you pay for 4-star hotels, a long-distance coach, a licensed driver, local city guides, group lunches, and national park tickets, your actual direct costs (**Land Arrangements**) might reach **€10,500**. Your real gross profit is only **€1,500**—and that is *before* paying your office rent or staff salaries.
-* **How the Toolkit Fixes It (*Job Costing*):** Every single hotel bill and bus invoice is tagged to a specific `Booking ID`. You instantly see the exact leftover profit of every single tour *before* you celebrate the sale.
+```
+[ Invoiced B2B Tour Sales ]  ≠  [ Real Tour Gross Profit ]  ≠  [ Actual Cash in Bank ]
+   (What you billed)             (After land supplier bills)    (Collected receipts minus paid bills & rent)
+```
 
-### 2. The "Profitable Bankruptcy" Trap (Why Profit on Paper Doesn't Pay the Bills)
-* **The Blind Spot:** Assuming that if a tour has a healthy 20% profit margin, your bank account is safe.
-* **The Reality:** In B2B travel, **timing is everything**. Suppose a tour earns €2,000 in profit. However, your overseas B2B client only pays a **30% deposit (€3,600)** upfront and promises the rest 30 days after the tour ends. Meanwhile, local hotels and bus companies demand **100% prepayment (€8,000)** before the group arrives. Even though the tour is "profitable," you have a **-€4,400 cash hole** right now. Multiply this across 15 groups in July, and your agency runs out of cash.
-* **How the Toolkit Fixes It (*Cash Flow vs. Accounting Separation*):** The system strictly separates *"Money Earned on Paper"* from *"Actual Cash in the Bank."* It tracks exact deposit receipts against actual vendor payouts so you never run out of working capital during peak season.
+This toolkit was engineered to eliminate **six hidden commercial blind spots** that silently bankrupt otherwise successful travel agencies:
 
-### 3. The "Calendar Distortion" Mistake (Matching Costs to the Right Month)
-* **The Blind Spot:** A client books a tour in **January** and pays a deposit, you pay the hotel in **May**, and the tourists actually travel in **August**. If you mix all these dates together, January looks wildly profitable while May looks like a catastrophic financial loss.
-* **TheHow the Toolkit Fixes It (*Travel-Month Attribution*):** The workbook anchors booking revenue and direct tour costs to the **actual Travel Month**, giving you an honest picture of which travel seasons actually make money, while tracking cash movements on the exact day money enters or leaves your bank.
+### 1. The "Top-Line Illusion" (Why High Booking Turnover Does Not Mean You Made Money)
+- **The Blind Spot:** Selling a 25-person Balkan inbound group tour to an overseas wholesale partner for **€15,000** feels like a major commercial win. Non-financial operators instinctively treat that €15,000 as money earned.
+- **The Reality:** Before your agency keeps a single euro, you must pay for 4-star hotel rooming blocks, long-distance charter coaches, driver accommodation, licensed city guides, group restaurant meals, and museum admissions. If those direct **Land Arrangement Costs** total **€13,200**, your actual gross profit is only **€1,800 (12%)**—and that is *before* paying office rent, software, or staff salaries.
+- **How the Toolkit Fixes It (*Booking-Level Job Costing*):** Every hotel invoice, bus bill, and guide fee is tagged to a specific `Booking ID`. The system deducts all direct land costs from the B2B sales price automatically, showing you the exact leftover profit of every tour *before* you celebrate the sale.
 
-### 4. The "Partial Payment" Mess (Stopping Invoice Overwriting)
-* **The Blind Spot:** When a client pays €4,000 toward a €10,000 invoice, many operators simply open their spreadsheet and change the amount owed to €6,000. Two months later, when a dispute arises, nobody remembers the original invoice price, when the first deposit arrived, or how much was lost in bank wire fees.
-* **How the Toolkit Fixes It (*Ledger-Based AR/AP Aging*):** Original invoices and supplier bills are never altered. Every partial deposit or installment is logged as a separate payment event, automatically calculating the remaining balance and highlighting who is late on payments.
+### 2. The "Profitable Bankruptcy" Trap (Why Paper Profit Cannot Pay Local Suppliers)
+- **The Blind Spot:** Assuming that as long as every tour package is priced at a healthy 20% profit margin, your travel agency cannot run out of money.
+- **The Reality:** In B2B travel and DMC operations, **cash timing is survival**. Suppose a tour earns €2,500 in net profit. However, your overseas B2B partner only wires a **20% deposit (€3,000)** upon confirmation and pays the remaining 80% balance 30 days *after* the travelers return home. Meanwhile, local resort hotels and coach companies demand **100% prepayment (€10,500)** 14 days before group arrival. Even though the tour is "profitable on paper," it creates an immediate **-€7,500 cash deficit** in your bank account. Multiply that across 12 peak-season groups in July, and a profitable agency freezes from illiquidity.
+- **How the Toolkit Fixes It (*Accrual P&L vs. Cash Liquidity Separation*):** The workbook strictly separates *"Accounting Profit Earned"* from *"Actual Cash in the Bank."* By comparing real customer deposits received against real vendor bills paid, it warns you of working capital shortfalls weeks before hotel cut-off dates arrive.
 
-### 5. The "Multi-Currency Leakage" (Silent Losses from Exchange Rates)
-* **The Blind Spot:** You quote an American travel partner in `USD`, collect payments in `EUR`, and pay local Balkan hotels in `BAM` (Bosnian Convertible Marks). Small fluctuations or inconsistent mental math across currencies silently eat away 2% to 5% of your net margin.
-* **How the Toolkit Fixes It (*Multi-Currency Normalization*):** Every transaction is recorded in its original currency and automatically converted into your single base currency, with an option to lock in the exact historical exchange rate on the day of payment.
+### 3. The "Calendar Distortion" Mistake (Mixing Up Booking Dates, Payment Dates & Travel Dates)
+- **The Blind Spot:** Recording revenue and costs purely based on the month an invoice is typed or a bank transfer occurs.
+- **The Reality:** In tourism, a single booking spans multiple months: a B2B buyer confirms a group and pays a deposit in **January**, your agency pays hotel prepayments in **May**, the passengers actually travel in **August**, and the final balance arrives in **September**. If you mix these dates together in a basic spreadsheet, January looks wildly profitable, May looks like a catastrophic financial loss, and August shows distorted margins—making it impossible to judge which travel seasons actually perform best.
+- **How the Toolkit Fixes It (*Dual-Timeline Attribution*):** The calculation engine anchors **Tour P&L (Revenue and Direct Costs)** to the **actual Travel Month** so seasonal profitability is 100% accurate, while simultaneously tracking **Cash Flow** on the exact calendar date money enters or leaves your bank account.
 
-### 6. The "Star Salesperson" Mirage (Rewarding Uncollected Revenue)
-* **The Blind Spot:** Paying bonuses to sales reps or giving discounts to B2B partners simply because they bring in high booking volume—ignoring the fact that their tours have razor-thin margins or the client takes 6 months to pay.
-* **How the Toolkit Fixes It (*Risk-Adjusted Contribution Analysis*):** The dashboard displays sales volume, net margin, and **unpaid overdue balances** side-by-side. You immediately see which clients and sales reps bring *real, collected cash* into the company.
+### 4. The "Partial Payment Overwrite" Chaos (Losing the Audit Trail on Split Deposits)
+- **The Blind Spot:** When an overseas client wires a €4,000 deposit toward a €10,000 invoice, many agency bookkeepers simply click into their Excel cell and change the invoice amount from €10,000 to €6,000.
+- **The Reality:** Two months later, when a billing dispute arises over short-paid bank wire fees or a second installment, the original invoice history is gone. Nobody can prove the original contract value, when partial payments arrived, or which invoices are legally overdue.
+- **How the Toolkit Fixes It (*Immutable Ledger-Based AR/AP Aging*):** Original B2B sales invoices and supplier bills are never overwritten. Every deposit, split installment, or balance payout is recorded as a timestamped transaction in the **Settlement Register**, automatically calculating remaining unpaid balances and highlighting overdue accounts.
+
+### 5. The "Multi-Currency FX Leakage" (Silent Margin Erosion Across Borders)
+- **The Blind Spot:** Quoting an American or UK tour operator in `USD`, collecting bank settlements in `EUR`, and paying local Balkan hospitality suppliers in `BAM` (Bosnian Convertible Marks) using rough mental math or outdated exchange rates.
+- **The Reality:** Unhedged currency conversion differences and inconsistent spreadsheet exchange rates quietly eat away **2% to 5% of a tour operator's net margin**—often wiping out a third of the agency's actual bottom-line profit without anyone noticing.
+- **How the Toolkit Fixes It (*Transaction-Level FX Normalization*):** Every invoice, bill, and payment is logged in its native transaction currency and automatically normalized into your agency's single base reporting currency, with built-in support for locking historical exchange rates on the exact day of settlement.
+
+### 6. The "Star Salesperson & Top Client" Mirage (Rewarding Uncollected or Low-Margin Volume)
+- **The Blind Spot:** Paying sales commissions to inbound account managers or granting preferred rates to B2B wholesale partners solely because they generate the highest top-line booking volume.
+- **The Reality:** Your highest-volume B2B buyer might be demanding heavy discounts that compress gross margin to 6%, while chronically delaying final payments by 90 days. Meanwhile, a mid-sized partner brings 22% margins and pays 100% upfront. Rewarding raw sales volume pushes your team to sell tours that drain company cash.
+- **How the Toolkit Fixes It (*Risk-Adjusted Contribution Analytics*):** The executive dashboard evaluates **Invoiced Revenue**, **Realized Gross Margin**, and **Unpaid Overdue AR Exposure** side-by-side by client, destination, and sales rep—showing leadership who actually brings *profitable, collected cash* into the agency.
+
+---
+
+## Common Travel Agency Financial Problems Solved: Manual Spreadsheets vs. Automated B2B Settlement Template
+
+| Travel Agency Operational Area | Fragile Manual Spreadsheets & Disconnected Logs (Without This Tool) | Automated B2B Tour Profitability & Settlement Framework (With This Tool) |
+| :--- | :--- | :--- |
+| **Tour Package Job Costing & PAX Margin** | Top-line sales turnover is celebrated without deducting final **hotel rooming list actuals, driver allowances, guide fees, and entrance tickets**. | Direct land arrangement bills map to specific `Booking ID` records, calculating exact **per-booking gross profit, margin %, and profit per PAX**. |
+| **B2B Deposit & Split Balance Reconciliation** | Partial tour deposits, international wire transfers, and final balances overwrite static cells, causing **AR reconciliation disputes** with overseas wholesalers. | Every client receipt is logged in an immutable payment ledger and aggregated against its parent `Invoice ID` for real-time **B2B AR aging**. |
+| **Local Hospitality Supplier AP Control** | Hotel release dates and coach prepayments sit buried in email threads, blinding finance teams to **upcoming vendor cut-off dates and unpaid AP liabilities**. | Ground supplier bills and partial vendor payouts link directly to bookings, generating automated **AP due-soon and overdue liability alerts**. |
+| **Peak-Season Working Capital & Cash Flow** | Management equates positive accrual tour margin with bank liquidity, triggering **cash crunches when paying upfront land supplier deposits**. | **Collected client receipts, disbursed supplier payouts, and paid office SG&A overhead** reconcile separately from accrual booking P&L. |
+| **Multi-Currency Accounting (`EUR`/`BAM`/`USD`)** | Foreign currency invoices and local vendor bills are summed with inconsistent mental exchange rates, hiding **FX conversion slippage**. | All multi-currency entries normalize into a unified base reporting currency with **transaction-level historical FX rate locking**. |
+| **B2B Credit Risk & Sales Rep Evaluation** | Overseas partners and sales reps are judged purely on confirmed booking value, ignoring **margin dilution and chronic late payers**. | Multi-dimensional dashboards rank **destinations, B2B buyers, and sales reps** by net gross profit alongside **unpaid overdue receivable risk**. |
+
+---
+
+## Who This Is For: Target Travel Industry Roles & Role-Specific Template Use Cases
+
+This framework is built for tourism professionals searching for specialized, non-bloated **travel agency accounting templates**, **DMC mid-office spreadsheets**, and **tour operator profitability calculators**:
+
+- **Destination Management Companies (DMCs) & Inbound Tour Operators (`DMC Tour Costing & Supplier Settlement Template`):** Built for inbound teams coordinating multi-day group tours, FIT land arrangements, and MICE programs who need to reconcile overseas wholesale invoices against fragmented local hotel, transport, and guide bills.
+- **Travel Agency Owners, Founders & Managing Directors (`Travel Agency Executive P&L & Cash Flow Dashboard`):** Designed for agency leadership seeking a real-time command center to monitor net operating margin, working capital exposure, PAX breakeven thresholds, and seasonal budget variances without hiring a full-time CFO.
+- **Travel Agency Accountants, Bookkeepers & Finance Controllers (`Travel Agency AR/AP Aging & Bank Reconciliation Excel Tracker`):** Engineered for back-office finance staff who need structured relational ledgers, automated invoice aging (`Current`, `Due Soon`, `Overdue`), split payment tracking, and multi-currency normalization (`EUR`, `BAM`, `USD`).
+- **B2B Travel Sales Managers, Tour Planners & Product Directors (`Tour Operator Margin Calculator & Client Contribution Tracker`):** Ideal for commercial teams auditing which travel destinations, tour package tiers, and overseas B2B buyers deliver high-margin, on-time collected revenue versus bad-debt exposure.
+- **Small-to-Medium Travel Enterprises (SMEs) & Boutique Tour Operators (`Free Travel ERP & Mid-Office Accounting Software Alternative`):** Tailored for growing agencies that have outgrown messy manual spreadsheets but want to avoid $500+/month legacy travel ERP systems and complex double-entry accounting software.
+
+*Scope Note:* This toolkit functions as an **operational management accounting, tour job costing, and AR/AP financial control system**. It complements—rather than replaces—statutory government tax filing portals, fiscal cash registers, or certified audit general ledgers.
+
+---
+
+## Real-World B2B Travel & DMC Accounting Scenarios: Long-Tail Operational Use Cases
+
+To illustrate how this **B2B travel agency spreadsheet model** operates in daily tourism workflows, below are four high-frequency commercial scenarios it handles out of the box:
+
+### Scenario 1: Multi-Country Inbound Group Tour Costing & Multi-Currency FX Settlement
+An **inbound Balkan DMC** operates a 10-day multi-country group tour across Croatia, Bosnia & Herzegovina, and Montenegro (incurring local supplier bills in `EUR` and `BAM`) sold to a North American wholesale tour operator invoiced in `USD`. The operations coordinator uses the **multi-currency normalization engine** to lock historical FX rates on deposit dates, link 14 separate hotel rooming, charter coach, and national park bills to a single `Booking ID`, and verify whether the completed group achieved the agency's **18% target gross margin**.
+
+### Scenario 2: Pre-Season Hotel Cut-Off Prepayments vs. B2B Client Credit Control
+Thirty days before peak summer group departures, local coastal resort hotels demand 50% non-refundable rooming list prepayments. By filtering the **B2B AR/AP Aging & Settlement Register**, the agency General Manager spots three overseas travel partners whose initial tour deposits are 15 days past due—immediately pausing outbound vendor payouts and initiating targeted credit collection before agency cash flow turns negative.
+
+### Scenario 3: Post-Season Destination & Wholesale Partner Profitability Audit
+During year-end commercial reviews, the Sales Director inspects the **Multi-Dimensional DMC Performance Dashboard** and discovers that while *Wholesale Partner A* generated €150,000 in gross booking volume, heavy rate discounting and chronic late payments yielded only an 8% gross margin and high bad-debt exposure. Meanwhile, *Wholesale Partner B* generated €80,000 in bookings at a 24% gross margin with 100% on-time settlement—directly reshaping next year's B2B allotment contracts and commission tiers.
+
+### Scenario 4: Boutique Travel Agency Fixed Overhead Coverage & PAX Breakeven Modeling
+A boutique inbound tour agency carrying €6,500 in fixed monthly SG&A overhead (office rent, GDS/booking system subscriptions, staff payroll, international trade show marketing) uses the **Monthly Operating Profit & Cash Flow Tracker** to calculate how many paying passengers (`PAX`) and gross tour margin dollars are required each month to cover fixed expenses and hit annual net income budgets.
 
 ---
 
 ## Why I Built This B2B Travel Financial Framework
 
-A travel agency's top-line booking turnover is fundamentally different from its bottom-line financial health.
+In B2B tourism, top-line booking turnover is frequently mistaken for bottom-line business health.
 
-Consider an inbound B2B group tour sold to an international tour wholesaler for **€12,000**. On a standard sales tracker, the booking looks impressive. However, once the operations team books hotel rooming lists, charter coaches, multilingual tour guides, group dining, and museum admissions, direct supplier costs reach **€10,200**—leaving **€1,800 in gross profit (a 15% gross margin)**.
+Consider an inbound group tour sold to an international travel wholesaler for **€12,000**. On a basic sales log, the booking looks strong. Once the operations team finalizes hotel rooming lists, charter coaches, multilingual tour guides, group dining, and museum admissions, direct land arrangement costs reach **€10,200**—leaving **€1,800 in gross profit (a 15% gross margin)**.
 
-Yet margin analysis is only half the battle. If the B2B buyer has wired only **€6,000** in deposits while your agency has already disbursed **€8,000** in supplier prepayments, a profitable tour actively drains **€2,000** from your company's working capital.
+Yet margin analysis is only half the equation. If the overseas buyer has wired only **€6,000** in deposits while your agency has already disbursed **€8,000** in supplier prepayments, a profitable booking actively drains **€2,000** from your company's working capital.
 
-I built **RT Vacations Balkan** around **productized financial reasoning**: transforming fragmented tour costing sheets, manual invoice folders, and reactive bank balance checks into a unified **DMC management accounting model**. It empowers travel executives to spot margin erosion early, enforce B2B credit control, schedule supplier settlements accurately, and scale profitable travel routes.
-
----
-
-## Common Travel Agency Financial Problems This Solves (Spreadsheet vs. Structured Control)
-
-| Travel Agency Operational Problem | Traditional Manual Spreadsheets & Disconnected Logs (Without This Tool) | Automated B2B Tour Profitability & Settlement Framework (With This Tool) |
-| :--- | :--- | :--- |
-| **Overstated Tour Package Profitability** | Sales turnover is celebrated without deducting final **hotel rooming actuals, driver allowances, guide fees, and entrance tickets**. | Direct land supplier bills are mapped to specific `Booking ID` records, calculating exact **per-booking gross profit and PAX margin**. |
-| **Chaotic B2B Deposit & Balance Reconciliation** | Split deposits, wire transfers, and final tour balances are overwritten in static cells, causing **AR reconciliation errors** with overseas partners. | Every customer receipt is logged in an immutable payment ledger and accumulated against its parent `Invoice ID` for real-time **AR aging**. |
-| **Unforeseen Local Supplier Liabilities** | Hotel and transport prepayments are tracked in email threads, blinding finance teams to **upcoming vendor cut-off dates and unpaid AP balances**. | Supplier bills and partial vendor payouts are linked directly to bookings, generating automated **AP due-soon and overdue payment alerts**. |
-| **Peak-Season Working Capital Crunch** | Management equates positive accounting margin with bank liquidity, leading to **cash shortages when paying upfront land arrangement deposits**. | **Actual cash receipts, supplier cash outflows, and paid office overhead** are reconciled separately from accrual booking P&L. |
-| **Multi-Currency FX Slippage & Distortion** | `EUR`, `BAM`, and `USD` invoices and vendor bills are summed using inconsistent mental exchange rates, hiding **foreign exchange losses**. | All multi-currency records normalize into a unified base reporting currency, supporting **transaction-level historical FX rate locking**. |
-| **Sales Volume Hiding Bad-Debt Credit Risk** | B2B accounts and sales agents are rewarded purely on confirmed booking value, ignoring **margin dilution and chronic late payers**. | Executive dashboards evaluate **invoiced revenue, net gross profit, and overdue customer collection risk** in a single view. |
-
----
-
-## Who This Is For (Target Travel Industry Roles & Template Use Cases)
-
-This toolkit is purpose-built for professionals searching for specialized, non-bloated travel finance software and spreadsheet templates:
-
-- **Destination Management Companies (DMCs) & Inbound Tour Operators:** Looking for a **DMC tour costing and supplier settlement template** to manage overseas wholesale partners alongside fragmented local hospitality vendors.
-- **Travel Agency Owners, Founders & Managing Directors:** Seeking an **executive travel agency P&L and cash flow dashboard** to monitor net operating margin, working capital exposure, and seasonal budget variance without hiring a full-time CFO.
-- **Travel Agency Accountants, Bookkeepers & Finance Controllers:** Needing a structured **travel agency accounts receivable (AR) and accounts payable (AP) Excel tracker** to reconcile split deposits, multi-currency wire transfers, and partial vendor bills.
-- **B2B Travel Sales Managers & Product Directors:** Requiring a **tour margin calculator and client contribution tracker** to audit which destinations, travel packages, and B2B buyers deliver profitable, collected revenue.
-- **Small-to-Medium Travel Enterprises (SMEs) & Boutique Tour Agencies:** Looking for a **free alternative to expensive travel ERP and mid-office accounting software**, achieving enterprise-grade financial control inside Microsoft Excel or a web browser.
-
-*Scope Note:* This toolkit is an **operational management accounting and financial control framework**. It does not replace statutory tax filing software, government fiscalization cash registers, or double-entry general ledger ERP systems.
-
----
-
-## Real-World B2B Travel & DMC Scenarios: How Teams Use This Template
-
-To help you evaluate whether this **travel agency spreadsheet model** fits your daily operations, here are four high-frequency industry scenarios it handles out of the box:
-
-### Scenario 1: Multi-Country Balkan Inbound Group Tour Settlement
-An inbound DMC operates a 10-day group tour across Croatia, Bosnia, and Montenegro (`EUR` and `BAM` supplier costs) sold to a US tour operator billed in `USD`. The finance coordinator uses the **multi-currency normalization engine** to lock exchange rates on deposit dates, link 14 different hotel and coach bills to a single `Booking ID`, and verify whether the final group achieved the agency's **18% target gross margin**.
-
-### Scenario 2: Pre-Season Hotel Prepayment vs. B2B Client Credit Control
-Thirty days before peak summer departures, local resort hotels demand 50% non-refundable prepayments. By filtering the **AR/AP Aging & Settlement Register**, the agency General Manager identifies three overseas B2B partners whose tour deposits are 15 days overdue—pausing vendor payouts and initiating targeted collection calls before agency cash flow turns negative.
-
-### Scenario 3: Post-Season Destination & B2B Partner Profitability Audit
-At year-end, the Commercial Director reviews the **Dimensional Performance Dashboard** and discovers that while *Partner A* generated €150,000 in top-line bookings, heavy discounting and late payments yielded only an 8% margin and high credit risk. Meanwhile, *Partner B* generated €80,000 in bookings at a 24% margin with 100% on-time settlement—guiding next year's B2B contract renegotiations.
-
-### Scenario 4: Monthly Agency Breakeven & Overhead Coverage Tracking
-A boutique travel agency with €6,500 in fixed monthly overhead (office lease, GDS fees, staff payroll, marketing) uses the **Monthly Operating Profit & Cash Flow Tracker** to calculate exactly how many profitable PAX bookings are required each month to cover fixed expenses and hit annual net income targets.
-
----
-
-## About the Creator
-
-I design lightweight **business intelligence trackers, financial modeling spreadsheets, and operational decision-support tools** for industries where fragmented transactions obscure commercial reality.
-
-Every framework answers one foundational question: *What minimum viable data must be connected so management can make its next financial decision with confidence?*
-
-**RT Vacations Balkan** applies this engineering philosophy to the B2B travel and tourism sector—bridging the gap between front-office tour sales, mid-office booking fulfillment, and back-office cash settlement.
+I built **RT Vacations Balkan** around **productized financial reasoning**: transforming disconnected tour costing sheets, manual invoice folders, and reactive bank balance checks into a unified **DMC management accounting model**. It empowers travel operators to spot margin erosion early, enforce B2B credit discipline, schedule vendor settlements accurately, and scale profitable travel routes with confidence.
 
 ---
 
 ## Technical Architecture & Excel Workbook Specifications
 
-### Automated Formula Engine Reference
-The offline `.xlsx` workbook utilizes modern **native Microsoft Excel Dynamic Array Functions** (`FILTER`, `SUMIFS`, `XLOOKUP`, `LET`, `UNIQUE`) to eliminate fragile legacy macros (VBA) and minimize manual row-dragging maintenance.
+### Native Microsoft Excel Dynamic Array Formula Engine
+The downloadable `.xlsx` workbook is powered entirely by modern **native Microsoft Excel Dynamic Array Functions** (`FILTER`, `SUMIFS`, `XLOOKUP`, `LET`, `UNIQUE`). It requires **zero VBA macros**, preventing security pop-ups, cross-platform compatibility failures, and fragile row-dragging formula corruption.
 
-### Built-In Accounting Validation Rules & Error Controls
-To prevent clerical bookkeeping mistakes, the spreadsheet enforces strict **data validation dropdowns, relational ID checks, and automated diagnostic flags**:
+### Built-In Accounting Validation Rules & Relational Error Controls
+To prevent clerical bookkeeping mistakes, the spreadsheet enforces strict **data validation dropdowns, relational foreign-key checks, and automated diagnostic audit flags**:
 
-| Ledger Field / Control Area | Accounting Validation Rule | Automated Spreadsheet Error Behavior |
+| Ledger Field / Control Area | Accounting Validation Rule | Automated Spreadsheet Diagnostic Behavior |
 | :--- | :--- | :--- |
-| `Booking ID` (Master Register) | Must be 100% unique across the booking log. | Triggers immediate `Duplicate ID` diagnostic alert. |
-| `Booking Status` | Restricted to standardized operational lifecycle states. | Enforced via locked dropdown list validation. |
+| `Booking ID` (Master Register) | Must be 100% unique across the master booking log. | Triggers immediate `Duplicate ID` diagnostic alert. |
+| `Booking Status` | Restricted to standardized tour lifecycle states (`Confirmed`, `Completed`, `Cancelled`). | Enforced via locked dropdown list validation. |
 | `Travel Start & End Dates` | Must be valid chronological calendar dates. | Flags invalid date formats or inverted travel ranges. |
 | `Passenger Count (PAX)` | Must be a positive integer representing paying travelers. | Input validation blocks negative or text entries. |
 | `Customer Invoice → Booking ID` | Relational foreign key must exist in the Master Booking Register. | Triggers `Orphaned / Invalid Booking ID` warning. |
 | `Supplier Bill → Booking ID` | Relational foreign key must exist in the Master Booking Register. | Triggers `Orphaned / Invalid Booking ID` warning. |
 | `Transaction Currency` | Must match a configured ISO currency code (`EUR`, `BAM`, `USD`). | Controlled via settings-linked dropdown menu. |
 | `Exchange Rate (FX Override)` | Manual historical FX rate overrides global table when populated. | Unmapped currency codes return `0` to force review. |
-| `Customer Receipt → Invoice ID` | Payment record must reference a valid issued Sales Invoice. | Flags `Invalid Invoice Reference` error. |
+| `Customer Receipt → Invoice ID` | Payment record must reference a valid issued B2B Sales Invoice. | Flags `Invalid Invoice Reference` error. |
 | `Supplier Payment → Bill ID` | Payout record must reference a valid logged Supplier Bill. | Flags `Invalid Vendor Bill Reference` error. |
 | `Settlement Currency Match` | Receipt/payout currency must match parent Invoice/Bill currency. | Triggers `Currency Mismatch` audit warning. |
 | `Payment Transaction Amount` | All cash receipts and disbursements entered as positive values. | Negative entries trigger transaction audit alert. |
-| `Settlement Balance Tolerance` | Minor rounding variances within configured threshold auto-settle. | Displays `Settled`, `Partial`, or `Overpaid` status. |
+| `Settlement Balance Tolerance` | Minor bank rounding variances within configured threshold auto-settle. | Displays `Settled`, `Partial`, or `Overpaid` status. |
 | `Invoice & Supplier Due Dates` | Dynamically evaluated against the user-defined `Analysis Date`. | Highlights `Overdue` or `Due Soon` aging status. |
-| `Booking Direct Cost Completeness` | Active bookings require linked supplier cost bills. | Diagnoses `Missing Supplier Cost` (inflated margin risk). |
-| `Booking Revenue Completeness` | Active bookings require linked customer sales invoices. | Diagnoses `Missing Customer Invoice` (unbilled tour risk). |
+| `Booking Direct Cost Completeness` | Active bookings require linked land supplier cost bills. | Diagnoses `Missing Supplier Cost` (inflated margin risk). |
+| `Booking Revenue Completeness` | Active bookings require linked B2B customer sales invoices. | Diagnoses `Missing Customer Invoice` (unbilled tour risk). |
 | `Booking Gross Margin Threshold` | Evaluated against target agency margin and zero-profit floor. | Flags `Below Target Margin` or `Loss-Making Booking`. |
 | `Operating Overhead Separation` | Agency SG&A expenses logged strictly outside tour job costing. | Prevents overhead from distorting per-booking gross margin. |
 | `Expense Cash Status` | Tagged explicitly as `Paid` or `Unpaid`. | Only `Paid` overhead deducts from monthly Net Cash Flow. |
 | `Dynamic Array Spill Zones` | Formula output ranges must remain clear of manual typing. | Standard Excel `#SPILL!` obstruction alert. |
 | `Default Ledger Capacity` | Pre-configured for rows `5–2000` per transaction register. | Expandable range references for high-volume DMCs. |
 
-### Important Implementation Considerations & Known Boundaries
-When deploying this workbook in a live travel agency accounting environment, note the following architectural boundaries:
+### Implementation Boundaries & Operational Considerations
+When deploying this workbook in a live **travel agency accounting environment**, keep the following architectural boundaries in mind:
 
-- **Identifier Duplicate Checks:** Automated duplicate detection runs explicitly on `Booking ID`. Unique numbering for Invoice IDs, Supplier Bill IDs, Payment IDs, and Expense IDs should be maintained via sequential row entry.
-- **Currency Mismatch Handling:** While the system flags a warning if a payment currency differs from its parent invoice/bill currency, it does not automatically halt aggregation. Bookkeepers must resolve currency mismatches before relying on net balance figures.
-- **Customer Credit-Risk Threshold:** The automated bad-debt / high-risk buyer flag currently utilizes a hardcoded **50% collection-rate threshold** rather than a user-adjustable parameter cell.
-- **Original-Currency Settlement Aggregation:** AR and AP balance formulas sum payments in their native invoice currency; maintaining currency consistency between invoices and payments is mandatory for accurate aging.
-- **Static Reference Exchange Rates:** Global FX rates are manually defined management assumptions rather than live API market feeds, ensuring stable historical financial reporting.
-
----
-
-## Explore More Operational Finance & Decision-Support Frameworks
-
-Discover additional open-source business trackers, financial modeling templates, and operational Excel frameworks by visiting the **[Theseus Workshop Business Decision-Support Tools Repository on GitHub](https://github.com/HyVoid)**.
+- **Identifier Duplicate Checks:** Automated duplicate detection runs explicitly on `Booking ID`. Unique sequential numbering for `Invoice ID`, `Supplier Bill ID`, `Payment ID`, and `Expense ID` should be maintained via standard row entry.
+- **Currency Mismatch Handling:** While the system triggers an audit warning if a payment currency differs from its parent invoice or vendor bill currency, it does not halt calculation. Bookkeepers must resolve currency mismatches before relying on net balance figures.
+- **Customer Credit-Risk Threshold:** The automated high-risk buyer flag currently utilizes a standardized **50% collection-rate threshold** rather than a user-adjustable parameter cell.
+- **Original-Currency Settlement Aggregation:** AR and AP balance formulas sum split payments in their native invoice currency; maintaining currency consistency between invoices and corresponding payments is required for accurate aging.
+- **Static Reference Exchange Rates:** Global FX rates are manually defined management assumptions rather than live API feeds, ensuring stable, auditable historical financial reporting.
 
 ---
 
-## Open-Source License
+## Frequently Asked Questions (B2B Travel Agency Accounting & Tour Costing FAQ)
 
-This financial modeling project and documentation are distributed under the **Apache License 2.0**.
+<details>
+<summary><strong>How do travel agencies and DMCs calculate true profit margin per tour booking?</strong></summary>
+<br>
+To calculate accurate per-booking tour profitability (Job Costing), a travel agency must link every B2B customer invoice and every direct land arrangement supplier bill (hotels, charter buses, tour guides, meals, entrance fees) to a unique <code>Booking ID</code>. Subtracting total normalized supplier costs from normalized invoiced revenue yields <strong>Booking Gross Profit</strong>. Dividing Booking Gross Profit by Invoiced Revenue produces <strong>Gross Margin (%)</strong>, while dividing by total paying passengers produces <strong>Profit per PAX</strong>.
+</details>
 
-Review the **[Full Apache License 2.0 Legal Terms and Commercial Usage Permissions](https://www.apache.org/licenses/LICENSE-2.0)** for complete redistribution and modification guidelines.
+<details>
+<summary><strong>Why is my travel agency profitable on paper but running out of cash in the bank?</strong></summary>
+<br>
+Travel agencies frequently experience working capital crunches due to timing mismatches between <strong>Accounts Receivable (AR)</strong> and <strong>Accounts Payable (AP)</strong>. When overseas B2B partners pay only a 20%–30% deposit upfront and settle the balance after travel completion, while local hotels and transport vendors require 50%–100% prepayment before arrival, profitable bookings create temporary negative cash flow. Tracking actual cash receipts separately from accrual invoice revenue prevents peak-season liquidity crises.
+</details>
+
+<details>
+<summary><strong>Can I use this Excel template as a free alternative to travel agency ERP software?</strong></summary>
+<br>
+Yes. For small-to-medium inbound tour operators, boutique DMCs, and wholesale travel agencies handling up to ~2,000 annual transactions per ledger, this native Microsoft Excel workbook provides booking-level job costing, multi-currency AR/AP aging, and executive P&L dashboards without recurring SaaS subscription costs or complex ERP implementation.
+</details>
+
+---
+
+## About the Creator & Open-Source Repository
+
+I design lightweight **business intelligence trackers, financial modeling spreadsheets, and operational decision-support tools** for industries where fragmented transaction logs obscure commercial reality. Every framework answers one foundational question: *What minimum viable data must be connected so management can make its next financial decision with confidence?*
+
+- 📂 **[Explore More Open-Source Financial Modeling Templates & Business Decision-Support Tools at Theseus Workshop on GitHub](https://github.com/HyVoid)**
+- ⚖️ **[Review the Full Apache License 2.0 Commercial Usage & Redistribution Terms](https://www.apache.org/licenses/LICENSE-2.0)**
