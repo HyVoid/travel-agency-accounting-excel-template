@@ -9,23 +9,64 @@ import { AppState } from '../types';
 const STORAGE_KEY = 'rt_vacations_balkan_data_v1';
 
 export function loadStateFromStorage(): AppState {
+  const initial = getInitialData();
   try {
-    const raw = localStorage.getItem(STORAGE_KEY);
+    const raw = typeof window !== 'undefined' ? localStorage.getItem(STORAGE_KEY) : null;
     if (!raw) {
-      const initial = getInitialData();
       saveStateToStorage(initial);
       return initial;
     }
-    const parsed = JSON.parse(raw) as AppState;
-    if (!parsed.config || !parsed.bookings || !parsed.invoices) {
-      const initial = getInitialData();
+    const parsed = JSON.parse(raw);
+    if (!parsed || typeof parsed !== 'object') {
       saveStateToStorage(initial);
       return initial;
     }
-    return parsed;
+
+    // Defensive merge to guarantee all required arrays and nested configs exist
+    const mergedState: AppState = {
+      config: {
+        ...initial.config,
+        ...(parsed.config || {}),
+        currencies:
+          Array.isArray(parsed.config?.currencies) && parsed.config.currencies.length > 0
+            ? parsed.config.currencies
+            : initial.config.currencies,
+        tourTypes: Array.isArray(parsed.config?.tourTypes)
+          ? parsed.config.tourTypes
+          : initial.config.tourTypes,
+        bookingStatuses: Array.isArray(parsed.config?.bookingStatuses)
+          ? parsed.config.bookingStatuses
+          : initial.config.bookingStatuses,
+        destinations: Array.isArray(parsed.config?.destinations)
+          ? parsed.config.destinations
+          : initial.config.destinations,
+        b2bClients: Array.isArray(parsed.config?.b2bClients)
+          ? parsed.config.b2bClients
+          : initial.config.b2bClients,
+        suppliers: Array.isArray(parsed.config?.suppliers)
+          ? parsed.config.suppliers
+          : initial.config.suppliers,
+        directCostCategories: Array.isArray(parsed.config?.directCostCategories)
+          ? parsed.config.directCostCategories
+          : initial.config.directCostCategories,
+        salesReps: Array.isArray(parsed.config?.salesReps)
+          ? parsed.config.salesReps
+          : initial.config.salesReps,
+        operatingExpenseCategories: Array.isArray(parsed.config?.operatingExpenseCategories)
+          ? parsed.config.operatingExpenseCategories
+          : initial.config.operatingExpenseCategories,
+      },
+      bookings: Array.isArray(parsed.bookings) ? parsed.bookings : initial.bookings,
+      invoices: Array.isArray(parsed.invoices) ? parsed.invoices : initial.invoices,
+      bills: Array.isArray(parsed.bills) ? parsed.bills : initial.bills,
+      payments: Array.isArray(parsed.payments) ? parsed.payments : initial.payments,
+      expenses: Array.isArray(parsed.expenses) ? parsed.expenses : initial.expenses,
+      lastSaved: parsed.lastSaved || initial.lastSaved,
+    };
+
+    return mergedState;
   } catch (err) {
     console.error('Failed to parse state from localStorage, falling back to seed data:', err);
-    const initial = getInitialData();
     saveStateToStorage(initial);
     return initial;
   }
@@ -33,6 +74,7 @@ export function loadStateFromStorage(): AppState {
 
 export function saveStateToStorage(state: AppState): void {
   try {
+    if (typeof window === 'undefined') return;
     const toSave: AppState = {
       ...state,
       lastSaved: new Date().toISOString(),
