@@ -21,10 +21,13 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 20
-          # Disabled npm Cache Setup: Removed the cache because lockfile is not committed
+          # Disabled npm Cache Setup: Removed the cache to avoid lockfile detection issues
+
+      - name: Update npm
+        run: npm install -g npm@latest
 
       - name: Install dependencies
-        run: npm install
+        run: npm install --legacy-peer-deps --no-audit --no-fund
 
       - name: Build project
         run: npm run build
