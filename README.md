@@ -1,3 +1,5 @@
+[ 🌐 عربي ](README.ar.md) | [ 🇩🇪 Deutsch ](README.de.md) | [ 🇫🇷 Français ](README.fr.md) | [ 🇳🇱 Nederlands ](README.nl.md) | [ 🇪🇸 Español ](README.sp.md) | [ 🇬🇧 English ](README.md)
+
 # B2B Travel Agency Accounting Excel Template (.xlsx) & Tour Operator Profit Calculator — DMC Financial Settlement Tracker | RT Vacations Balkan
 <img width="1920" height="790" alt="image" src="https://github.com/user-attachments/assets/cb659a58-4e78-464d-bcee-5b144d34575d" />
 
@@ -18,8 +20,8 @@ This **travel agency financial management toolkit** unifies **master booking reg
 >
 > Use the interactive browser calculator for instant single-session tour costing and cash flow simulation. For permanent company bookkeeping, monthly bank reconciliation, and multi-booking financial control, download the automated Microsoft Excel workbook.
 >
-> - 🌐 **[Launch the Free Web-Based Tour Operator Profit & Cash Flow Sandbox Calculator (Interactive Browser App)](#)** — *Instant online testing environment for simulating per-booking gross margins, split B2B deposits, and AR/AP aging without installing files.*
-> - 📥 **[Download the Reusable B2B Travel Agency Accounting & Financial Settlement Excel Template (.xlsx)](https://theseusworkshop.com/l/qihgnj)** — *Complete offline spreadsheet workbook powered by native Excel Dynamic Array formulas (`XLOOKUP`, `FILTER`, `LET`) for permanent monthly travel accounting.*
+> - 🌐 **[Launch the Free Web-Based Tour Operator Profit & Cash Flow Sandbox Calculator (Interactive Browser App)](https://hyvoid.github.io/travel-agency-accounting-excel-template/)** — *Instant online testing environment for simulating per-booking gross margins, split B2B deposits, and AR/AP aging without installing files.*
+> - 📥 **[Download the Reusable B2B Travel Agency Accounting & Financial Settlement Excel Template (.xlsx)](https://theseusworkshop.com/l/qihgnj?utm_source=github&utm_medium=GitHub%20README&utm_campaign=readme%20new%20launch&utm_content=travel-agency-accounting-excel-template)** — *Complete offline spreadsheet workbook powered by native Excel Dynamic Array formulas (`XLOOKUP`, `FILTER`, `LET`) for permanent monthly travel accounting.*
 
 ---
 
@@ -44,19 +46,19 @@ This **B2B tour operator accounting workflow** is engineered for rapid deploymen
 
 ### Step 1: Configure Multi-Currency FX Rates & Agency Margin Parameters
 Open the global configuration module to define your **base reporting currency** (`EUR`, `BAM`, or `USD`), reference **foreign exchange (`FX`) conversion rates**, **target tour gross margin (%)**, **AR overdue warning threshold (days)**, and monthly **agency revenue and profit budgets**. Populate master validation lists for **overseas B2B clients, local ground suppliers, travel destinations, tour package types, and sales reps**.
-- 👉 *Try It Live:* **[Configure Sample Currency & Margin Rules in the Free Web-Based Tour Calculator Sandbox](#)**
+- 👉 *Try It Live:* **[Configure Sample Currency & Margin Rules in the Free Web-Based Tour Calculator Sandbox](https://hyvoid.github.io/travel-agency-accounting-excel-template/)**
 
 ### Step 2: Log Confirmed Inbound Bookings, B2B Sales Invoices & Land Supplier Bills
 Assign a unique `Booking ID` to each confirmed group tour or FIT file, recording the **B2B wholesale buyer, destination routing, travel start/end dates, paying passenger count (`PAX`), and assigned sales manager**. Enter issued **customer B2B invoices** and incoming **hotel, transport, and guide supplier bills** mapped to that exact `Booking ID`. When recording a **partial client deposit** or **hotel prepayment installment**, log a new row in the **Payment Settlement Register** rather than overwriting the original invoice figure.
-- 👉 *Try It Live:* **[Simulate Booking Costing & Split Deposit Entries in the Interactive Browser App](#)**
+- 👉 *Try It Live:* **[Simulate Booking Costing & Split Deposit Entries in the Interactive Browser App](https://hyvoid.github.io/travel-agency-accounting-excel-template/)**
 
 ### Step 3: Audit Tour Gross Margins, AR/AP Aging & Monthly Cash Flow
 Open the **Automated Booking Calculation Engine** to inspect per-tour gross profit, target margin variance alerts, profit per PAX, uncollected buyer balances, and unpaid vendor liabilities. Switch to the **Executive Travel Finance Dashboard** to monitor monthly net cash burn, seasonal destination profitability, and B2B buyer payment reliability.
-- 👉 *Try It Live:* **[Preview the Live DMC Executive P&L and AR/AP Aging Dashboard Online](#)**
+- 👉 *Try It Live:* **[Preview the Live DMC Executive P&L and AR/AP Aging Dashboard Online](https://hyvoid.github.io/travel-agency-accounting-excel-template/)**
 
 ### Step 4: Transition from Single-Session Web Testing to Reusable Monthly Excel Bookkeeping
 While the browser sandbox is ideal for instant single-session simulation, ongoing travel agency operations require persistent data storage. Download the **reusable offline Microsoft Excel workbook (`.xlsx`)** to maintain permanent multi-month transaction registers, perform weekly bank reconciliations, update the `Analysis Date` for live **overdue invoice tracking**, and roll over the `Reporting Year` across fiscal cycles.
-- 👉 *Get the Permanent Toolkit:* **[Download the Reusable B2B Travel Agency Accounting Excel Workbook (.xlsx) for Recurring Monthly Operations](https://theseusworkshop.com/l/qihgnj)**
+- 👉 *Get the Permanent Toolkit:* **[Download the Reusable B2B Travel Agency Accounting Excel Workbook (.xlsx) for Recurring Monthly Operations](https://theseusworkshop.com/l/qihgnj?utm_source=github&utm_medium=GitHub%20README&utm_campaign=readme%20new%20launch&utm_content=travel-agency-accounting-excel-template)**
 
 ---
 

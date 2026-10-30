@@ -1,6 +1,0 @@
-{
-  "name": "RT Vacations Balkan - B2B Travel Finance & Order Profit Management System",
-  "description": "An independent SaaS web financial accounting and order profitability management system for RT Vacations Balkan travel agency, featuring real-time formula computation, multi-currency conversion, cash flow and receivables tracking, and executive dashboards.",
-  "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
-}
