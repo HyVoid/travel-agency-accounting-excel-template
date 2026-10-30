@@ -20,11 +20,8 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 22
           # Disabled npm Cache Setup: Removed the cache to avoid lockfile detection issues
-
-      - name: Update npm
-        run: npm install -g npm@latest
 
       - name: Install dependencies
         run: npm install --legacy-peer-deps --no-audit --no-fund
