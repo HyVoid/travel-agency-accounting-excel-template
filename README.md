@@ -1,6 +1,6 @@
 [ 🌐 عربي ](README.ar.md) | [ 🇩🇪 Deutsch ](README.de.md) | [ 🇫🇷 Français ](README.fr.md) | [ 🇳🇱 Nederlands ](README.nl.md) | [ 🇪🇸 Español ](README.sp.md) | [ 🇬🇧 English ](README.md)
 
-# B2B Travel Agency Accounting Excel Template (.xlsx) & Tour Operator Profit Calculator — DMC Financial Settlement Tracker | RT Vacations Balkan
+# B2B Travel Agency Accounting Excel Template (.xlsx) & Tour Operator Profit Calculator — DMC Financial Settlement Tracker
 <img width="1920" height="790" alt="image" src="https://github.com/user-attachments/assets/cb659a58-4e78-464d-bcee-5b144d34575d" />
 
 
