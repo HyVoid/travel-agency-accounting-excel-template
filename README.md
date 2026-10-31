@@ -237,3 +237,12 @@ I design lightweight **business intelligence trackers, financial modeling spread
 
 - 📂 **[Explore More Open-Source Financial Modeling Templates & Business Decision-Support Tools at Theseus Workshop on GitHub](https://github.com/HyVoid)**
 - ⚖️ **[Review the Full Apache License 2.0 Commercial Usage & Redistribution Terms](https://www.apache.org/licenses/LICENSE-2.0)**
+
+
+---
+
+## License
+
+This financial modeling project and documentation are distributed under the **Apache License 2.0**.
+
+Review the **[Full Apache License 2.0 Legal Terms and Commercial Usage Permissions](https://www.apache.org/licenses/LICENSE-2.0)** for complete redistribution and modification guidelines. 
