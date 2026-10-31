@@ -358,9 +358,14 @@ export default function App() {
             <div className="w-7 h-7 rounded-lg bg-[#051C2C] flex items-center justify-center text-white">
               <Compass className="w-4 h-4 text-white" />
             </div>
-            <span className="font-heading font-bold text-sm text-[#051C2C]">
-              RT Vacations
-            </span>
+            <div>
+              <span className="font-heading font-bold text-sm text-[#051C2C] block leading-tight">
+                Theseus Workshop
+              </span>
+              <span className="text-[9px] text-[#888888] block uppercase tracking-wider">
+                B2B Travel Finance
+              </span>
+            </div>
           </div>
 
           <span className="text-[10px] font-mono uppercase px-1.5 py-0.5 rounded bg-[rgba(5,28,44,0.06)] text-[#051C2C] font-semibold">
@@ -463,7 +468,7 @@ export default function App() {
             Data privacy note: All data and storage features operate strictly within your browser's local storage. This application does not store, transmit, or retain any user or financial data on external servers.
           </p>
           <p className="mt-1 text-[11px] text-[#888888]/80">
-            RT Vacations Balkan • B2B Tour Operator Accounting & Yield Management Platform
+            Theseus Workshop • B2B Travel Finance & Order Profit Management System
           </p>
         </footer>
       </div>

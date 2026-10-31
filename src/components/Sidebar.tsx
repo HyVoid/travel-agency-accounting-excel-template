@@ -101,14 +101,14 @@ export const Sidebar: React.FC<SidebarProps> = ({
           <div>
             <div className="flex items-center gap-1.5">
               <span className="font-heading font-bold text-base text-[#051C2C] tracking-tight">
-                RT Vacations
+                Theseus Workshop
               </span>
               <span className="text-[10px] font-mono uppercase px-1.5 py-0.5 rounded bg-[rgba(5,28,44,0.06)] text-[#051C2C] font-semibold">
                 {config.baseCurrency}
               </span>
             </div>
             <div className="text-[10px] text-[#888888] tracking-wider uppercase -mt-0.5">
-              Balkan B2B Accounting
+              B2B Travel Finance & Order Profit Management
             </div>
           </div>
         </div>
