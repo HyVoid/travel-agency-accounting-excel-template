@@ -38,6 +38,14 @@ Instead of juggling disconnected **tour costing spreadsheets**, manual **hotel r
 | **Fixed Agency Overhead Eating Up Group Tour Margins** | **Net Operating Profit (EBITDA) & SG&A Overhead Allocation Dashboard** | Deducts fixed monthly agency operating costs (office rent, staff payroll, B2B travel trade show booths, bank wire fees) from gross tour profit to reveal true **Net Operating Income**. |
 | **Blind Reliance on High-Volume, Low-Margin B2B Buyers** | **Multi-Dimensional DMC Profitability Analytics (By Destination, Buyer & Sales Rep)** | Ranks **inbound travel destinations**, **overseas B2B wholesale buyers**, and **tour sales managers** by net margin contribution and **bad-debt collection risk**, rather than raw invoiced turnover. |
 
+## Spreadsheet Preview
+
+Want to take a closer look before downloading? You can preview the spreadsheet in Google Sheets to explore its layout, structure, and calculation logic.
+
+**[View Spreadsheet Preview on Google Sheets](https://docs.google.com/spreadsheets/d/1mw_ZDLTIghSTBlDHtM6BWmzYjaBq_Xpt/edit?usp=sharing&ouid=108770714531989318327&rtpof=true&sd=true)**
+
+> **Note on Compatibility:** The Google Sheets preview may display occasional `#NAME?` errors or formula warnings due to differences between Google Sheets and Microsoft Excel formula compatibility. These are preview-only compatibility issues and do not affect the functionality of the original Excel workbook. For the intended formula behavior and full functionality, please download and open the `.xlsx` file in Microsoft Excel.
+
 ---
 
 ## Step-by-Step Tutorial: How to Set Up Your B2B Travel Agency Accounting & Tour Costing Workflow
