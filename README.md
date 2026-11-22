@@ -270,6 +270,23 @@ Yes. For small-to-medium inbound tour operators, boutique DMCs, and wholesale tr
 * **[startup-financial-model-excel](https://github.com/HyVoid/startup-financial-model-excel)** — Will our growth plan run out of cash before cohort monetization catches up? — Forecast multi-year cash burn, runway, unit economics, and fundraising dilution from bottom-up cohort and headcount assumptions.
 * **[shopify-pnl-reconciliation-excel](https://github.com/HyVoid/shopify-pnl-reconciliation-excel)** — Is each Shopify storefront actually profitable once true SKU-level costs, shared expenses, and bank charges are reconciled? — Reconcile multi-store Shopify sales exports against SKU-level COGS, allocated multi-currency OPEX, and bank statements to produce a trustworthy monthly P&L.
 
+## Questions, Feedback & Product Updates
+
+This repository supports **B2B Travel Agency Accounting & Tour Operator Profit Calculator**. Use the channels below to keep reproducible defects separate from general usage questions and product ideas.
+
+- **Report a reproducible technical issue:** [Open a B2B Travel Agency Accounting & Tour Operator Profit Calculator bug report](https://github.com/HyVoid/travel-agency-accounting-excel-template/issues/new?template=bug-report.yml). Include the affected workflow, software environment, and steps to reproduce.
+- **Ask a usage question:** [Theseus Workshop community Q&A](https://github.com/HyVoid/business-decision-toolbox/discussions/categories/questions).
+- **Suggest an improvement or discuss a use case:** [Share an idea](https://github.com/HyVoid/business-decision-toolbox/discussions/categories/ideas).
+- **Follow product announcements:** [Product Updates](https://github.com/HyVoid/business-decision-toolbox/discussions/categories/product-updates).
+
+### Privacy & Safe Examples
+
+Do not publish customer, supplier, employee, property-owner, traveler, tenant, transaction, booking, payment, or other confidential business information in public GitHub Issues or Discussions. Do not attach unredacted accounting exports, bank statements, invoices, contracts, identity documents, credentials, or complete operational datasets.
+
+Use synthetic examples wherever possible. If a real-world example is necessary, remove direct and indirect identifiers and commercially sensitive values. Column names, fabricated sample rows, approximate row counts, exact error messages, and expected-versus-actual results are usually enough to reproduce a problem.
+
+For any free browser-based demo, do not upload production data until you have independently reviewed the demo's current privacy and data-handling information and confirmed that its use is appropriate. This README does not claim that browser data is processed only on your device or is never transmitted or retained.
+
 ## About the Creator & Open-Source Repository
 
 I design lightweight **business intelligence trackers, financial modeling spreadsheets, and operational decision-support tools** for industries where fragmented transaction logs obscure commercial reality. Every framework answers one foundational question: *What minimum viable data must be connected so management can make its next financial decision with confidence?*
